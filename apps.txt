@@ -3,4 +3,5 @@ atom
 dosfstools
 mtools
 blueman
+gh
 

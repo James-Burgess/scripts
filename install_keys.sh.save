@@ -1,0 +1,11 @@
+echo "installing deps"
+
+
+sudo apt-get update -Yqq
+sudo apt-get install git gnupg rng-tools -y
+
+wget 
+
+#sudo apt install golang-go gopass -y
+#go install github.com/gopasspw/gopass@latest
+

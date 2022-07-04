@@ -1,0 +1,2 @@
+add ssh key from yubikey for gopass https://xeiaso.net/blog/yubikey-ssh-key-storage
+

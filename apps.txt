@@ -1,0 +1,6 @@
+gparted
+atom
+dosfstools
+mtools
+blueman
+

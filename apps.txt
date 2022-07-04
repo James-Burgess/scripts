@@ -1,7 +1,9 @@
 gparted
-atom
 dosfstools
 mtools
 blueman
 gh
-
+cowsay
+flameshot
+ulauncher
+redshift

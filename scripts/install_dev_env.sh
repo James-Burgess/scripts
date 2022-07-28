@@ -18,4 +18,15 @@ function install_dev_env() {
   curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
   sudo npm install -g yarn
 
+  curl https://cli-assets.heroku.com/install.sh | sh
+
+  curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  mv ./kubectl ~/.local/bin/kubectl
+  kubectl version --client --output=yaml
+
+  sudo sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
+
+  curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 }
